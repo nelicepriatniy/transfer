@@ -1,0 +1,17 @@
+<svg width="40" height="640" viewBox="0 0 40 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle opacity="0.25" cx="20" cy="220" r="20" fill="#FFCC19"/>
+<circle opacity="0.5" cx="20" cy="220" r="14" fill="#FFCC19"/>
+<circle cx="20" cy="220" r="6" fill="#FFCC19"/>
+<line opacity="0.6" x1="20.5" y1="240" x2="20.5" y2="400" stroke="#1F1305" stroke-dasharray="4 4"/>
+<circle opacity="0.25" cx="20" cy="20" r="20" fill="#F1740C"/>
+<circle opacity="0.5" cx="20" cy="20" r="14" fill="#F1740C"/>
+<circle cx="20" cy="20" r="6" fill="#F1740C"/>
+<line opacity="0.6" x1="20.5" y1="40" x2="20.5" y2="200" stroke="#1F1305" stroke-dasharray="4 4"/>
+<circle opacity="0.25" cx="20" cy="620" r="20" fill="#FFCC19"/>
+<circle opacity="0.5" cx="20" cy="620" r="14" fill="#FFCC19"/>
+<circle cx="20" cy="620" r="6" fill="#FFCC19"/>
+<circle opacity="0.25" cx="20" cy="420" r="20" fill="#F1740C"/>
+<circle opacity="0.5" cx="20" cy="420" r="14" fill="#F1740C"/>
+<circle cx="20" cy="420" r="6" fill="#F1740C"/>
+<line opacity="0.6" x1="20.5" y1="440" x2="20.5" y2="600" stroke="#1F1305" stroke-dasharray="4 4"/>
+</svg>

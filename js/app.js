@@ -32,3 +32,12 @@ window.addEventListener('scroll', () => {
         header.classList.remove('header--scrolled');
     }
 });
+
+
+const faq = document.querySelectorAll('.faq-item');
+
+faq.forEach((el)=>{
+    el.onclick = ()=>{
+        el.classList.toggle('active')
+    }
+})
