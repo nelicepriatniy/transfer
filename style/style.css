@@ -10,11 +10,13 @@
   font-family: "Unbounded", sans-serif;
 }
 
-a, button {
+a,
+button {
   cursor: pointer;
 }
 
-body, html {
+body,
+html {
   font-size: 0.0520833333vw;
 }
 
@@ -810,4 +812,221 @@ footer .container {
 .trust-item.empty {
   opacity: 0;
   visibility: hidden;
+}
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+  width: 100%;
+  z-index: 12;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.4s ease;
+}
+.popup.active {
+  opacity: 1;
+  visibility: visible;
+  transform: translate(-50%, -50%);
+}
+
+.excurs-popup {
+  border-radius: 30rem;
+  padding: 60rem 70rem;
+  max-width: 1488rem;
+  background: #fff;
+  max-height: 90%;
+  overflow-y: scroll;
+}
+.excurs-popup .heading {
+  font-weight: 500;
+  font-size: 40rem;
+  color: #1f1305;
+  margin-bottom: 60rem;
+  text-align: center;
+}
+.excurs-popup .info-block {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+}
+.excurs-popup .info-block__item {
+  border-radius: 50rem;
+  width: 414rem;
+  height: 150rem;
+  -webkit-backdrop-filter: blur(10rem);
+          backdrop-filter: blur(10rem);
+  box-shadow: 4rem 4rem 10rem 0 rgba(0, 0, 0, 0.1);
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 24rem;
+  color: #1f1305;
+}
+.excurs-popup .info-block__item:nth-child(2) {
+  margin-top: 140rem;
+}
+.excurs-popup .info-block-border {
+  position: absolute;
+  top: 60rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.excurs-popup .popup-gallery {
+  margin-top: 60rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25rem;
+}
+.excurs-popup .popup-gallery__item {
+  width: 100%;
+}
+.excurs-popup .texts {
+  margin-top: 60rem;
+}
+.excurs-popup .texts__item {
+  width: 100%;
+  display: flex;
+}
+.excurs-popup .texts__item:nth-child(even) {
+  flex-flow: row-reverse;
+}
+.excurs-popup .texts__item p {
+  font-weight: 300;
+  font-size: 27rem;
+  color: #1f1305;
+  max-width: 600rem;
+}
+.excurs-popup .cost {
+  margin-top: 60rem;
+}
+.excurs-popup .cost .heading {
+  font-weight: 500;
+  font-size: 24rem;
+  line-height: 100%;
+  color: #1f1305;
+}
+.excurs-popup .cost .wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 35rem;
+}
+.excurs-popup .cost .wrapper .wrapper__item {
+  display: flex;
+}
+.excurs-popup .cost .wrapper .wrapper__item:nth-child(even) {
+  flex-flow: row-reverse;
+}
+.excurs-popup .cost .wrapper p {
+  min-width: 40%;
+}
+.excurs-popup .price {
+  margin-top: 60rem;
+  font-weight: 500;
+  font-size: 24rem;
+  line-height: 100%;
+  text-decoration: underline;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #1f1305;
+}
+.excurs-popup .buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 32rem;
+  margin-top: 60rem;
+}
+.excurs-popup .white-btn {
+  border: 2rem solid #1f1305;
+  border-radius: 100rem;
+}
+.excurs-popup .revs {
+  display: flex;
+  gap: 30rem;
+  margin-top: 60rem;
+}
+.excurs-popup .rev__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fafafa;
+  padding: 30rem 45rem 50rem;
+}
+.excurs-popup .rev .rev__item__item-top p {
+  font-size: 20rem;
+}
+.excurs-popup .reviews__item-name {
+  font-size: 20rem;
+}
+.excurs-popup .reviews__item-top {
+  width: 100%;
+}
+
+.closePopups {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 11;
+  width: 100vw;
+  height: 100vh;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.4s ease;
+}
+.closePopups.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.popup.car-popup {
+  max-width: 615rem;
+  background: #fff;
+  padding: 60rem 100rem 25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 30rem;
+}
+.popup .car-card {
+  background: #fafafa;
+  border-radius: 30rem;
+  display: flex;
+  flex-direction: column;
+  padding: 20rem;
+  margin-bottom: 30rem;
+}
+.popup .img-container {
+  border-radius: 30rem;
+  background: #fff;
+  padding: 58rem 0;
+  margin-bottom: 20rem;
+}
+.popup .img-container img {
+  width: 100%;
+}
+.popup .heading {
+  font-weight: 500;
+  font-size: 27rem;
+  color: #1f1305;
+  margin-bottom: 20rem;
+}
+.popup .desc {
+  font-weight: 300;
+  font-size: 20rem;
+  color: #1f1305;
+  margin-bottom: 20rem;
+}
+.popup .icons {
+  display: flex;
+  align-items: center;
+  gap: 20rem;
+}
+.popup .icons img {
+  height: 24rem;
 }/*# sourceMappingURL=style.css.map */
