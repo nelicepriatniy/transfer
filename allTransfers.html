@@ -12,52 +12,102 @@
 
     <header>
         <div class="container">
-                <a href="#" class="header__logo">
-                    <img src="./media/icons/logo.svg" alt="logo">
-                </a>
-                <div class="header__menu">
-                    <nav class="header__nav">
-                        <ul class="header__list">
-                            <li class="header__item active">
-                                <a href="/" class="header__link">
-                                    <span>Главная</span>
-                                </a>
-                            </li>
-                            <li class="header__item">
-                                <a href="#" class="header__link">
-                                    <span>Авто</span>
-                                </a>
-                            </li>
-                            <li class="header__item">
-                                <a href="./allTransfers.html" class="header__link">
-                                    <span>Все трансферы</span>
-                                </a>
-                            </li>
-                            <li class="header__item">
-                                <a href="./excursia.html" class="header__link">
-                                    <span>Экскурсии</span>
-                                </a>
-                            </li>
-                            <li class="header__item">
-                                <a href="#" class="header__link">
-                                    <span>Отзывы</span>
-                                </a>
-                            </li>
-                            <li class="header__item">
-                                <a href="#" class="header__link">
-                                    <span>Контакты</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-                <div class="header-lang">
-                    <a href="#" class="header-lang__link">GR</a>
-                    <a href="#" class="header-lang__link">ENG</a>
-                    <a href="#" class="header-lang__link active">RU</a>
-                </div>
+            <a href="#" class="header__logo">
+                <img src="./media/icons/logo.svg" alt="logo">
+            </a>
+            <div class="header__menu">
+                <nav class="header__nav">
+                    <ul class="header__list">
+                        <li class="header__item active">
+                            <a href="/" class="header__link">
+                                <span>Главная</span>
+                            </a>
+                        </li>
+                        <li class="header__item">
+                            <a href="#" class="header__link">
+                                <span>Авто</span>
+                            </a>
+                        </li>
+                        <li class="header__item">
+                            <a href="./allTransfers.html" class="header__link">
+                                <span>Все трансферы</span>
+                            </a>
+                        </li>
+                        <li class="header__item">
+                            <a href="./excursia.html" class="header__link">
+                                <span>Экскурсии</span>
+                            </a>
+                        </li>
+                        <li class="header__item">
+                            <a href="#" class="header__link">
+                                <span>Отзывы</span>
+                            </a>
+                        </li>
+                        <li class="header__item">
+                            <a href="#" class="header__link">
+                                <span>Контакты</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header-lang">
+                <a href="#" class="header-lang__link openexqPopup">GR</a>
+                <a href="#" class="header-lang__link">ENG</a>
+                <a href="#" class="header-lang__link active">RU</a>
+            </div>
+            <svg class="header-burger mob" width="27" height="14" viewBox="0 0 27 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 1L27 1M7.5 7L27 7M11.25 13H27" stroke="#1F1305" stroke-width="2" />
+            </svg>
         </div>
     </header>
+    <div class="header-menu-mob mob">
+        <div class="header-menu-close">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1 1L10 10M19 19L10 10M10 10L1 19L19 1" stroke="#1F1305" stroke-width="2" />
+            </svg>
+        </div>
+        <a href="#" class="header__logo">
+            <img src="./media/icons/logo.svg" alt="logo">
+        </a>
+        <div class="header__menu active">
+            <nav class="header__nav">
+                <ul class="header__list">
+                    <li class="header__item active">
+                        <a href="/" class="header__link">
+                            <span>Главная</span>
+                        </a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#" class="header__link">
+                            <span>Авто</span>
+                        </a>
+                    </li>
+                    <li class="header__item">
+                        <a href="./allTransfers.html" class="header__link">
+                            <span>Все трансферы</span>
+                        </a>
+                    </li>
+                    <li class="header__item">
+                        <a href="./excursia.html" class="header__link">
+                            <span>Экскурсии</span>
+                        </a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#" class="header__link">
+                            <span>Отзывы</span>
+                        </a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#" class="header__link">
+                            <span>Контакты</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+    </div>
     <main>
         <section class="hero">
             <div class="container">
@@ -273,8 +323,8 @@
             <div class="footer-menu">
                 <a href="">Главная</a>
                 <a href="">FAQ</a>
-                <a href="">Все трансферы</a>
                 <a href="">Контакты</a>
+                <a href="">Все трансферы</a>
                 <a href="">Экскурсии</a>
             </div>
             <div class="footer-contacts">
@@ -305,6 +355,8 @@
                         <p>Facebook</p>
                     </a>
                 </div>
+                <a href="" class="policy mob">Политика конфиденциальности</a>
+                <p class="copyr mob">2025 © Все права защищены.</p>
             </div>
         </div>
     </footer>
@@ -315,6 +367,284 @@
             <path d="M27.4697 18.4697C27.7626 18.1768 28.2374 18.1768 28.5303 18.4697L33.3033 23.2426C33.5962 23.5355 33.5962 24.0104 33.3033 24.3033C33.0104 24.5962 32.5355 24.5962 32.2426 24.3033L28 20.0607L23.7574 24.3033C23.4645 24.5962 22.9896 24.5962 22.6967 24.3033C22.4038 24.0104 22.4038 23.5355 22.6967 23.2426L27.4697 18.4697ZM28 37H27.25V19H28H28.75V37H28Z" fill="white" />
         </svg>
     </div>
+
+    <div class="popup excurs-popup ">
+        <p class="heading">Экскурсия в Метеоры</p>
+        <div class="info-block">
+            <div class="info-block__item">
+                <p>Длительность: 8 часов</p>
+            </div>
+            <div class="info-block__item">
+                <p>Отправление: в 9:00</p>
+            </div>
+            <div class="info-block__item">
+                <p>Длительность: 8 часов</p>
+            </div>
+            <img src="./media/popup/border.svg" alt="" class="info-block-border">
+        </div>
+        <div class="popup-gallery">
+            <img src="./media/eks/1.png" alt="" class="popup-gallery__item">
+            <img src="./media/eks/1.png" alt="" class="popup-gallery__item">
+            <img src="./media/eks/1.png" alt="" class="popup-gallery__item">
+        </div>
+        <div class="texts">
+            <div class="texts__item">
+                <p>Откройте для себя один из самых завораживающих уголков 
+    Греции — монастыри Метеоры, построенные на вершинах отвесных скал.</p>
+            </div>
+            <div class="texts__item">
+                <p>Откройте для себя один из самых завораживающих уголков 
+    Греции — монастыри Метеоры, построенные на вершинах отвесных скал.</p>
+            </div>
+        </div>
+        <div class="cost">
+            <p class="heading">Что включено:</p>
+            <div class="wrapper">
+                <div class="wrapper__item">
+                    <p>Трансфер туда-обратно</p>
+                    <p>Трансфер туда-обратно</p>
+                </div>
+                <div class="wrapper__item">
+                    <p>Трансфер туда-обратно</p>
+                    <p>Трансфер туда-обратно</p>
+                </div>
+            </div>
+        </div>
+        <p class="price">Цена: от €70 / чел</p>
+        <div class="buttons">
+            <button class="orange-btn">Забронировать экскурсию</button>
+            <button class="white-btn">Написать в WhatsApp</button>
+        </div>
+        <div class="revs">
+            <div class="rev__item">
+                <img src="./media/revs/1.png" alt="reviews" class="reviews__item-img">
+                <div class="reviews__item-top">
+                    <p class="reviews__item-name">
+                        Ольга, Москва
+                    </p>
+                    <div class="reviews__item-rating">
+                        <svg width="21" height="19" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.5 0L12.8574 7.25532H20.4861L14.3143 11.7394L16.6717 18.9947L10.5 14.5106L4.32825 18.9947L6.68565 11.7394L0.513906 7.25532H8.1426L10.5 0Z" fill="#FFCC19" />
+                        </svg>
+                        <svg width="21" height="19" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.5 0L12.8574 7.25532H20.4861L14.3143 11.7394L16.6717 18.9947L10.5 14.5106L4.32825 18.9947L6.68565 11.7394L0.513906 7.25532H8.1426L10.5 0Z" fill="#FFCC19" />
+                        </svg>
+                        <svg width="21" height="19" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.5 0L12.8574 7.25532H20.4861L14.3143 11.7394L16.6717 18.9947L10.5 14.5106L4.32825 18.9947L6.68565 11.7394L0.513906 7.25532H8.1426L10.5 0Z" fill="#FFCC19" />
+                        </svg>
+                        <svg width="21" height="19" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.5 0L12.8574 7.25532H20.4861L14.3143 11.7394L16.6717 18.9947L10.5 14.5106L4.32825 18.9947L6.68565 11.7394L0.513906 7.25532H8.1426L10.5 0Z" fill="#FFCC19" />
+                        </svg>
+                        <svg width="21" height="19" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.5 0L12.8574 7.25532H20.4861L14.3143 11.7394L16.6717 18.9947L10.5 14.5106L4.32825 18.9947L6.68565 11.7394L0.513906 7.25532H8.1426L10.5 0Z" fill="#FFCC19" />
+                        </svg>
+                    </div>
+                </div>
+                <p class="reviews__item-text">
+                    «Все чётко, водитель встретил с табличкой, помог с багажом. Рекомендую!»
+                </p>
+            </div>
+            <div class="rev__item">
+                <img src="./media/revs/1.png" alt="reviews" class="reviews__item-img">
+                <div class="reviews__item-top">
+                    <p class="reviews__item-name">
+                        Ольга, Москва
+                    </p>
+                    <div class="reviews__item-rating">
+                        <svg width="21" height="19" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.5 0L12.8574 7.25532H20.4861L14.3143 11.7394L16.6717 18.9947L10.5 14.5106L4.32825 18.9947L6.68565 11.7394L0.513906 7.25532H8.1426L10.5 0Z" fill="#FFCC19" />
+                        </svg>
+                        <svg width="21" height="19" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.5 0L12.8574 7.25532H20.4861L14.3143 11.7394L16.6717 18.9947L10.5 14.5106L4.32825 18.9947L6.68565 11.7394L0.513906 7.25532H8.1426L10.5 0Z" fill="#FFCC19" />
+                        </svg>
+                        <svg width="21" height="19" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.5 0L12.8574 7.25532H20.4861L14.3143 11.7394L16.6717 18.9947L10.5 14.5106L4.32825 18.9947L6.68565 11.7394L0.513906 7.25532H8.1426L10.5 0Z" fill="#FFCC19" />
+                        </svg>
+                        <svg width="21" height="19" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.5 0L12.8574 7.25532H20.4861L14.3143 11.7394L16.6717 18.9947L10.5 14.5106L4.32825 18.9947L6.68565 11.7394L0.513906 7.25532H8.1426L10.5 0Z" fill="#FFCC19" />
+                        </svg>
+                        <svg width="21" height="19" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.5 0L12.8574 7.25532H20.4861L14.3143 11.7394L16.6717 18.9947L10.5 14.5106L4.32825 18.9947L6.68565 11.7394L0.513906 7.25532H8.1426L10.5 0Z" fill="#FFCC19" />
+                        </svg>
+                    </div>
+                </div>
+                <p class="reviews__item-text">
+                    «Все чётко, водитель встретил с табличкой, помог с багажом. Рекомендую!»
+                </p>
+            </div>
+            <div class="rev__item">
+                <img src="./media/revs/1.png" alt="reviews" class="reviews__item-img">
+                <div class="reviews__item-top">
+                    <p class="reviews__item-name">
+                        Ольга, Москва
+                    </p>
+                    <div class="reviews__item-rating">
+                        <svg width="21" height="19" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.5 0L12.8574 7.25532H20.4861L14.3143 11.7394L16.6717 18.9947L10.5 14.5106L4.32825 18.9947L6.68565 11.7394L0.513906 7.25532H8.1426L10.5 0Z" fill="#FFCC19" />
+                        </svg>
+                        <svg width="21" height="19" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.5 0L12.8574 7.25532H20.4861L14.3143 11.7394L16.6717 18.9947L10.5 14.5106L4.32825 18.9947L6.68565 11.7394L0.513906 7.25532H8.1426L10.5 0Z" fill="#FFCC19" />
+                        </svg>
+                        <svg width="21" height="19" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.5 0L12.8574 7.25532H20.4861L14.3143 11.7394L16.6717 18.9947L10.5 14.5106L4.32825 18.9947L6.68565 11.7394L0.513906 7.25532H8.1426L10.5 0Z" fill="#FFCC19" />
+                        </svg>
+                        <svg width="21" height="19" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.5 0L12.8574 7.25532H20.4861L14.3143 11.7394L16.6717 18.9947L10.5 14.5106L4.32825 18.9947L6.68565 11.7394L0.513906 7.25532H8.1426L10.5 0Z" fill="#FFCC19" />
+                        </svg>
+                        <svg width="21" height="19" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.5 0L12.8574 7.25532H20.4861L14.3143 11.7394L16.6717 18.9947L10.5 14.5106L4.32825 18.9947L6.68565 11.7394L0.513906 7.25532H8.1426L10.5 0Z" fill="#FFCC19" />
+                        </svg>
+                    </div>
+                </div>
+                <p class="reviews__item-text">
+                    «Все чётко, водитель встретил с табличкой, помог с багажом. Рекомендую!»
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="popup car-popup">
+        <div class="car-card">
+            <div class="img-container">
+                <img src="./media/cars/eco.png" alt="">
+            </div>
+            <p class="heading">Автомобиль эконом класса</p>
+            <p class="desc">Экономия топлива и комфорт в каждой поездке</p>
+            <div class="icons">
+                <img src="./media/icons/carCard/1.svg" alt="">
+                <img src="./media/icons/carCard/1.svg" alt="">
+                <img src="./media/icons/carCard/1.svg" alt="">
+            </div>
+        </div>
+        <a href="" class="orange-btn">Забронировать трансфер</a>
+    </div>
+    <div class="popup form-popup">
+        <div class="close-popups-btn">
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path opacity="0.5" d="M1 1L9 9M17 17L9 9M9 9L1 17L17 1" stroke="#1F1305" />
+            </svg>
+        </div>
+        <div class="f-popup-top">
+            <p class="heading">Форма бронирования:</p>
+            <div class="car">
+                <p class="text">Mercedes S-Class (VIP)</p>
+                <img src="./media/cars/eco.png" alt="car img">
+            </div>
+        </div>
+        <form>
+            <div class="form-wrapper">
+                    <input type="text" placeholder="Имя Фамилия">
+                    <div class="selects">
+                    <div class="select-item">
+                        <input type="text" hidden value="" id="start-point">
+                        <div class="select-body">
+                            <p>
+                                Аэропорт MAKEDONIA SKG 
+                            </p>
+                            <svg width="15" height="8" viewBox="0 0 15 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M13.7741 0L15 1.1898L8.31881 7.67036C8.21176 7.77483 8.08445 7.85773 7.94422 7.9143C7.804 7.97088 7.65362 8 7.50174 8C7.34985 8 7.19947 7.97088 7.05925 7.9143C6.91902 7.85773 6.79171 7.77483 6.68466 7.67036L0 1.1898L1.22591 0.00112152L7.5 6.08359L13.7741 0Z" fill="#1F1305" />
+                            </svg>
+                        </div>
+                        <div class="select-list">
+                            <ul>
+                                <li>Аэропорт MAKEDONIA SKG </li>
+                                <li>BUS STATION</li>
+                                <li>PEREA</li>
+                                <li>Аэропорт MAKEDONIA SKG </li>
+                                <li>BUS STATION</li>
+                                <li>PEREA</li>
+                                <li>Аэропорт MAKEDONIA SKG </li>
+                                <li>BUS STATION</li>
+                                <li>PEREA</li>
+                                <li>Аэропорт MAKEDONIA SKG </li>
+                                <li>BUS STATION</li>
+                                <li>PEREA</li>
+                                <li>Аэропорт MAKEDONIA SKG </li>
+                                <li>BUS STATION</li>
+                                <li>PEREA</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="select-item">
+                        <input type="text" hidden value="" id="end-point">
+                        <div class="select-body">
+                            <p>
+                                Аэропорт MAKEDONIA SKG 
+                            </p>
+                            <svg width="15" height="8" viewBox="0 0 15 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M13.7741 0L15 1.1898L8.31881 7.67036C8.21176 7.77483 8.08445 7.85773 7.94422 7.9143C7.804 7.97088 7.65362 8 7.50174 8C7.34985 8 7.19947 7.97088 7.05925 7.9143C6.91902 7.85773 6.79171 7.77483 6.68466 7.67036L0 1.1898L1.22591 0.00112152L7.5 6.08359L13.7741 0Z" fill="#1F1305" />
+                            </svg>
+                        </div>
+                        <div class="select-list">
+                            <ul>
+                                <li>Аэропорт MAKEDONIA SKG </li>
+                                <li>BUS STATION</li>
+                                <li>PEREA</li>
+                                <li>Аэропорт MAKEDONIA SKG </li>
+                                <li>BUS STATION</li>
+                                <li>PEREA</li>
+                                <li>Аэропорт MAKEDONIA SKG </li>
+                                <li>BUS STATION</li>
+                                <li>PEREA</li>
+                                <li>Аэропорт MAKEDONIA SKG </li>
+                                <li>BUS STATION</li>
+                                <li>PEREA</li>
+                                <li>Аэропорт MAKEDONIA SKG </li>
+                                <li>BUS STATION</li>
+                                <li>PEREA</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    </div>
+                    <input type="text" placeholder="Тип авто: Эконом / Комфорт / VIP">
+                    <input type="text" placeholder="Дата и время">
+                    <input type="text" placeholder="Количество пассажиров">
+                    <input type="text" placeholder="Телефон">
+                    <div class="form-l-chairs">
+                        <p class="chair-heaidng">Детские кресла</p>
+                        <div class="chair-item">
+                            <img src="./media/icons/chair1.png" alt="" class="chair-item-img">
+                            <div class="chair-input">
+                                <div class="chair-input-pluss">
+                                    +
+                                </div>
+                                <input type="number" value="0" class="chair-input-itself">
+                                <div class="chair-input-minus">
+                                    -
+                                </div>
+                            </div>
+                        </div>
+                        <div class="chair-item">
+                            <img src="./media/icons/chair2.png" alt="" class="chair-item-img">
+                            <div class="chair-input">
+                                <div class="chair-input-pluss">
+                                    +
+                                </div>
+                                <input type="number" value="0" class="chair-input-itself">
+                                <div class="chair-input-minus">
+                                    -
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <input type="text" placeholder="Откуда прилетает самолет / город / номер рейса">
+            </div>
+            <textarea name="" id="" placeholder="Комментарий"></textarea>
+            <div class="buttons">
+                <button class="orange-btn">Забронировать</button>
+                <label class="policy">
+                    <input type="checkbox" name="" hidden id="">
+                    <div class="policy-visual">
+                        <svg width="14" height="10" viewBox="0 0 14 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 3L6 8L13 1" stroke="#1F1305" stroke-width="2" />
+                        </svg>
+                    </div>
+                    <p class="policy-text">Я согласен с политикой конфиденциальности</p>
+                </label>
+            </div>
+        </form>
+    </div>
+    <div class="closePopups"></div>
     
 
     <script src="js/swiper-bundle.min.js"></script>
